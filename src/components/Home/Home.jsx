@@ -42,14 +42,15 @@ color: #646464;
 const Parent=styled(Box)`
 display:flex;
 margin-top:10px;
-padding:10px;
+padding:20px;
 justify-content:space-around;
 height:100vh;
 @media (max-width: 600px) {
     flex-direction:column;
-    gap:0;
+    gap:13px;
     justify-content:space-between;
-    height:auto
+    height:auto;
+    margin-top:25px;
 }
 `
 const Content=styled(Box)`
